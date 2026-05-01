@@ -1,11 +1,12 @@
 # MC Storage
 A web application for managing item Minecraft storage
 
-# Demo
+## 🎞 Demo
 
---
+<div align-center><video src="https://github.com/user-attachments/assets/bee5d73c-0750-4021-84f1-d5320f1fcbf1"></video></div>
 
-# Docs
+
+## 🖥 Docs
 
 Русская документация - https://github.com/bolgaro4ka/mc-storage/README-RU.md
 
