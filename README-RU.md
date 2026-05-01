@@ -1,7 +1,14 @@
-MC Storage
-A web application for managing Minecraft storage
+# MC Storage
+Web-приложение для управление хранилицем предметов
 
-<video align-center src="https://github.com/user-attachments/assets/bee5d73c-0750-4021-84f1-d5320f1fcbf1"></video>
+## Содержание
+- 🖼 Демострация
+- 🗝 Как запустить
+- 🎮 Примеры постройки хранилища
+- 💊 Возможные проблемы
+
+## Демонстрация
+<div align-center><video  src="https://github.com/user-attachments/assets/bee5d73c-0750-4021-84f1-d5320f1fcbf1"></video></div>
 
 
 ## Как запустить
@@ -31,6 +38,7 @@ A web application for managing Minecraft storage
     Вставьте в них названия ваших сундуков импорта и экспорта (название сундуков пишется при включении, прилегающего к нему, коннектора)
 15. В терминале CC Tweaked напишите client.lua
 
+<img width="1906" height="1080" alt="Снимок экрана 2026-05-01 230458" src="https://github.com/user-attachments/assets/91245f33-6a82-4a2b-a671-74ff8d334dfd" />
 Готово! Теперь по адресу статического HTML сервера вы найдёте Web-панель для управления системой хранения
 
 ## Пример постройки хранилица
@@ -38,7 +46,20 @@ A web application for managing Minecraft storage
 <img width="1920" height="1080" alt="2026-05-01_23 03 26" src="https://github.com/user-attachments/assets/259945fe-c54f-470e-bf97-18a222e3bac0" />
 <img width="1920" height="1080" alt="2026-05-01_23 02 36" src="https://github.com/user-attachments/assets/f2423fcb-a94d-4e40-8321-f7980d141f23" />
 
+## Возможные  проблемы
+### Q: У меня не соединяется компьютер и сундуки/монитор
 
+A: Отключите Optifine, он не совместим с CC Tweaked
+
+### Q: Не открывается веб-интерфейс на других устройствах
+
+A: 1. Убедитесь что вы запустили сервер не на localhost
+   
+   2. Если вы используете прокси поставьте галочку на "не использовать для внутренних ардесов" и добавьте ваш IP в исключения
+   <img width="476" height="409" alt="image" src="https://github.com/user-attachments/assets/79d9d758-5f7a-4070-a18d-0ac7d9055816" />
+
+
+By Bolgaro4ka 2026
 
 
 
