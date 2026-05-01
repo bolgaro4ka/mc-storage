@@ -1,0 +1,49 @@
+<!-- web/index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecraft Storage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header class="title-bar">
+      <div class="logo">MINECRAFT STORAGE</div>
+      <div class="subtitle">Управление сундуками и выдача предметов</div>
+      <div class="status">
+        <span>Соединение:</span>
+        <span id="ws-status" class="connecting">Подключение...</span>
+      </div>
+    </header>
+
+    <section class="controls">
+      <div class="search-card card">
+        <label for="search">Поиск предмета</label>
+        <input id="search" placeholder="minecraft:diamond">
+      </div>
+
+      <div class="request-card card">
+        <div class="request-title">Запрос предмета</div>
+        <div class="request-fields">
+          <input id="name" placeholder="minecraft:diamond">
+          <input id="count" type="number" value="1" min="1">
+        </div>
+        <button class="action-button" onclick="requestItem(document.getElementById('name').value, parseInt(document.getElementById('count').value))">Запросить</button>
+      </div>
+    </section>
+
+    <section class="items-panel card">
+      <div class="panel-header">Содержимое хранилища</div>
+      <div id="items" class="items-grid"></div>
+    </section>
+
+    <footer class="footer">
+      <span>CC Tweaked · Веб-клиент для майнкрафт сундуков</span>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
