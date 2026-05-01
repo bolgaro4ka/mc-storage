@@ -8,10 +8,10 @@ A web application for managing item Minecraft storage
 
 ## 🖥 Docs
 
-Русская документация - https://github.com/bolgaro4ka/mc-storage/README-RU.md
+Русская документация - https://github.com/bolgaro4ka/mc-storage/blob/main/README-RU.md
 
-English Docs - https://github.com/bolgaro4ka/mc-storage/README-EN.md
+English Docs - https://github.com/bolgaro4ka/mc-storage/blob/main/README-EN.md
 
-日本語のドキュメント - https://github.com/bolgaro4ka/mc-storage/README-JP.md
+日本語のドキュメント - https://github.com/bolgaro4ka/mc-storage/blob/main/README-JP.md
 
 By Bolgaro4ka 2026
